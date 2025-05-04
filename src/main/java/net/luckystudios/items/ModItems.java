@@ -61,7 +61,7 @@ public class ModItems {
 
     public static final DeferredItem<HeavyArmorItem> HEAVY_GOLDEN_HELMET = ITEMS.register("heavy_golden_helmet",
             () -> new HeavyGoldenArmorItem(ModArmorMaterials.HEAVY_GOLDEN_ARMOR, ArmorItem.Type.HELMET,
-                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(14))));
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(14)).component(ModDataComponents.OPENED, false)));
     public static final DeferredItem<HeavyArmorItem> HEAVY_GOLDEN_CHESTPLATE = ITEMS.register("heavy_golden_chestplate",
             () -> new HeavyGoldenArmorItem(ModArmorMaterials.HEAVY_GOLDEN_ARMOR, ArmorItem.Type.CHESTPLATE,
                     new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(14))));
