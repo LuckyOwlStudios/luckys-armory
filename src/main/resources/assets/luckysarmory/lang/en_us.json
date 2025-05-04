@@ -1,11 +1,6 @@
 {
   "itemGroup.luckysarmory": "Armory",
 
-  "item.luckysarmory.bone_helmet": "Bone Helmet",
-  "item.luckysarmory.bone_chestplate": "Bone Chestplate",
-  "item.luckysarmory.bone_leggings": "Bone Leggings",
-  "item.luckysarmory.bone_boots": "Bone Boots",
-
   "item.luckysarmory.light_iron_helmet": "Light Iron Helmet",
   "item.luckysarmory.light_iron_chestplate": "Light Iron Chestplate",
   "item.luckysarmory.light_iron_leggings": "Light Iron Leggings",
@@ -46,10 +41,6 @@
   "item.luckysarmory.heavy_netherite_leggings": "Heavy Netherite Leggings",
   "item.luckysarmory.heavy_netherite_boots": "Heavy Netherite Boots",
 
-  "item.luckysarmory.turtle_chestplate": "Turtle Chestplate",
-  "item.luckysarmory.turtle_leggings": "Turtle Leggings",
-  "item.luckysarmory.turtle_boots": "Turtle Boots",
-
   "key.luckysarmory.helmet_toggle": "Toggle Helmet Cap",
   "tooltip.luckysarmory.opened": "[Opened]",
   "tooltip.luckysarmory.closed": "[Closed]",
@@ -57,12 +48,6 @@
 
   "advancement.luckysarmory.heavy_iron_armor.title": "Ironclad",
   "advancement.luckysarmory.heavy_iron_armor.description": "Obtain a full set of Heavy Iron Armor",
-
-  "advancement.luckysarmory.heavy_golden_armor.title": "Golden Guardian",
-  "advancement.luckysarmory.heavy_golden_armor.description": "Equip a full set of Heavy Golden Armor",
-
-  "advancement.luckysarmory.heavy_diamond_armor.title": "Diamond Defender",
-  "advancement.luckysarmory.heavy_diamond_armor.description": "Equip a full set of Heavy Diamond Armor",
 
   "advancement.luckysarmory.heavy_netherite_armor.title": "Crush Me in Debris",
   "advancement.luckysarmory.heavy_netherite_armor.description": "Netherite just wasn't enough for you, was it?"

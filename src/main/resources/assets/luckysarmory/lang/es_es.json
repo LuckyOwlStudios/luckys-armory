@@ -1,0 +1,54 @@
+{
+  "itemGroup.luckysarmory": "Armadura",
+
+  "item.luckysarmory.light_iron_helmet": "Casco de hierro ligero",
+  "item.luckysarmory.light_iron_chestplate": "Peto de hierro ligero",
+  "item.luckysarmory.light_iron_leggings": "Grebas de hierro ligero",
+  "item.luckysarmory.light_iron_boots": "Botas de hierro ligero",
+
+  "item.luckysarmory.light_golden_helmet": "Casco de oro ligero",
+  "item.luckysarmory.light_golden_chestplate": "Peto de oro ligero",
+  "item.luckysarmory.light_golden_leggings": "Grebas de oro ligero",
+  "item.luckysarmory.light_golden_boots": "Botas de oro ligero",
+
+  "item.luckysarmory.light_diamond_helmet": "Casco de diamante ligero",
+  "item.luckysarmory.light_diamond_chestplate": "Peto de diamante ligero",
+  "item.luckysarmory.light_diamond_leggings": "Grebas de diamante ligero",
+  "item.luckysarmory.light_diamond_boots": "Botas de diamante ligero",
+
+  "item.luckysarmory.light_netherite_helmet": "Casco de netherita ligero",
+  "item.luckysarmory.light_netherite_chestplate": "Peto de netherita ligero",
+  "item.luckysarmory.light_netherite_leggings": "Grebas de netherita ligero",
+  "item.luckysarmory.light_netherite_boots": "Botas de netherita ligero",
+
+  "item.luckysarmory.heavy_iron_helmet": "Casco de hierro pesado",
+  "item.luckysarmory.heavy_iron_chestplate": "Peto de hierro pesado",
+  "item.luckysarmory.heavy_iron_leggings": "Grebas de hierro pesado",
+  "item.luckysarmory.heavy_iron_boots": "Botas de hierro pesado",
+
+  "item.luckysarmory.heavy_golden_helmet": "Casco de oro pesado",
+  "item.luckysarmory.heavy_golden_chestplate": "Peto de oro pesado",
+  "item.luckysarmory.heavy_golden_leggings": "Grebas de oro pesado",
+  "item.luckysarmory.heavy_golden_boots": "Botas de oro pesado",
+
+  "item.luckysarmory.heavy_diamond_helmet": "Casco de diamante pesado",
+  "item.luckysarmory.heavy_diamond_chestplate": "Peto de diamante pesado",
+  "item.luckysarmory.heavy_diamond_leggings": "Grebas de diamante pesado",
+  "item.luckysarmory.heavy_diamond_boots": "Botas de diamante pesado",
+
+  "item.luckysarmory.heavy_netherite_helmet": "Casco de netherita pesado",
+  "item.luckysarmory.heavy_netherite_chestplate": "Peto de netherita pesado",
+  "item.luckysarmory.heavy_netherite_leggings": "Grebas de netherita pesado",
+  "item.luckysarmory.heavy_netherite_boots": "Botas de netherita pesado",
+
+  "key.luckysarmory.helmet_toggle": "Alternar visor del casco",
+  "tooltip.luckysarmory.opened": "[Abierto]",
+  "tooltip.luckysarmory.closed": "[Cerrado]",
+  "tooltip.luckysarmory.dyeable": "Teñible",
+
+  "advancement.luckysarmory.heavy_iron_armor.title": "Armadura de Hierro",
+  "advancement.luckysarmory.heavy_iron_armor.description": "Obtén un conjunto completo de armadura de hierro pesado",
+
+  "advancement.luckysarmory.heavy_netherite_armor.title": "Enterrado en Escombros",
+  "advancement.luckysarmory.heavy_netherite_armor.description": "¿No fue suficiente netherita?"
+}

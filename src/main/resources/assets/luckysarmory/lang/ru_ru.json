@@ -1,0 +1,54 @@
+{
+  "itemGroup.luckysarmory": "Броня",
+
+  "item.luckysarmory.light_iron_helmet": "Лёгкий железный шлем",
+  "item.luckysarmory.light_iron_chestplate": "Лёгкая железная кираса",
+  "item.luckysarmory.light_iron_leggings": "Лёгкие железные поножи",
+  "item.luckysarmory.light_iron_boots": "Лёгкие железные ботинки",
+
+  "item.luckysarmory.light_golden_helmet": "Лёгкий золотой шлем",
+  "item.luckysarmory.light_golden_chestplate": "Лёгкая золотая кираса",
+  "item.luckysarmory.light_golden_leggings": "Лёгкие золотые поножи",
+  "item.luckysarmory.light_golden_boots": "Лёгкие золотые ботинки",
+
+  "item.luckysarmory.light_diamond_helmet": "Лёгкий алмазный шлем",
+  "item.luckysarmory.light_diamond_chestplate": "Лёгкая алмазная кираса",
+  "item.luckysarmory.light_diamond_leggings": "Лёгкие алмазные поножи",
+  "item.luckysarmory.light_diamond_boots": "Лёгкие алмазные ботинки",
+
+  "item.luckysarmory.light_netherite_helmet": "Лёгкий незеритовый шлем",
+  "item.luckysarmory.light_netherite_chestplate": "Лёгкая незеритовая кираса",
+  "item.luckysarmory.light_netherite_leggings": "Лёгкие незеритовые поножи",
+  "item.luckysarmory.light_netherite_boots": "Лёгкие незеритовые ботинки",
+
+  "item.luckysarmory.heavy_iron_helmet": "Тяжёлый железный шлем",
+  "item.luckysarmory.heavy_iron_chestplate": "Тяжёлая железная кираса",
+  "item.luckysarmory.heavy_iron_leggings": "Тяжёлые железные поножи",
+  "item.luckysarmory.heavy_iron_boots": "Тяжёлые железные ботинки",
+
+  "item.luckysarmory.heavy_golden_helmet": "Тяжёлый золотой шлем",
+  "item.luckysarmory.heavy_golden_chestplate": "Тяжёлая золотая кираса",
+  "item.luckysarmory.heavy_golden_leggings": "Тяжёлые золотые поножи",
+  "item.luckysarmory.heavy_golden_boots": "Тяжёлые золотые ботинки",
+
+  "item.luckysarmory.heavy_diamond_helmet": "Тяжёлый алмазный шлем",
+  "item.luckysarmory.heavy_diamond_chestplate": "Тяжёлая алмазная кираса",
+  "item.luckysarmory.heavy_diamond_leggings": "Тяжёлые алмазные поножи",
+  "item.luckysarmory.heavy_diamond_boots": "Тяжёлые алмазные ботинки",
+
+  "item.luckysarmory.heavy_netherite_helmet": "Тяжёлый незеритовый шлем",
+  "item.luckysarmory.heavy_netherite_chestplate": "Тяжёлая незеритовая кираса",
+  "item.luckysarmory.heavy_netherite_leggings": "Тяжёлые незеритовые поножи",
+  "item.luckysarmory.heavy_netherite_boots": "Тяжёлые незеритовые ботинки",
+
+  "key.luckysarmory.helmet_toggle": "Переключить визор шлема",
+  "tooltip.luckysarmory.opened": "[Открыто]",
+  "tooltip.luckysarmory.closed": "[Закрыто]",
+  "tooltip.luckysarmory.dyeable": "Можно покрасить",
+
+  "advancement.luckysarmory.heavy_iron_armor.title": "Железная броня",
+  "advancement.luckysarmory.heavy_iron_armor.description": "Получите полный комплект тяжёлой железной брони",
+
+  "advancement.luckysarmory.heavy_netherite_armor.title": "Завалите обломками",
+  "advancement.luckysarmory.heavy_netherite_armor.description": "Незерита оказалось недостаточно, верно?"
+}
