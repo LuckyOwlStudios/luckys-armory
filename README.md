@@ -1,25 +1,15 @@
+# Lucky's Armory
 
-Installation information
-=======
+**Lucky's Armory** is a Minecraft mod that adds a wide variety of light and heavy armor variants crafted from Iron, Gold, Diamond, and Netherite. Customize your combat style with new gear types that support visual toggles and dyeable materials.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+[CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/luckys-armory)
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+---
+## Additional Resources
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+- 📚 Community Documentation: https://docs.neoforged.net/
+- 💬 NeoForged Discord: https://discord.neoforged.net/
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+---
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+Thank you for checking out Lucky's Armory!
