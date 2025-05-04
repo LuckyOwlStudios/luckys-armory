@@ -1,0 +1,54 @@
+{
+  "itemGroup.luckysarmory": "Armurerie",
+
+  "item.luckysarmory.light_iron_helmet": "Casque en fer léger",
+  "item.luckysarmory.light_iron_chestplate": "Plastron en fer léger",
+  "item.luckysarmory.light_iron_leggings": "Jambières en fer légères",
+  "item.luckysarmory.light_iron_boots": "Bottes en fer légères",
+
+  "item.luckysarmory.light_golden_helmet": "Casque en or léger",
+  "item.luckysarmory.light_golden_chestplate": "Plastron en or léger",
+  "item.luckysarmory.light_golden_leggings": "Jambières en or légères",
+  "item.luckysarmory.light_golden_boots": "Bottes en or légères",
+
+  "item.luckysarmory.light_diamond_helmet": "Casque en diamant léger",
+  "item.luckysarmory.light_diamond_chestplate": "Plastron en diamant léger",
+  "item.luckysarmory.light_diamond_leggings": "Jambières en diamant légères",
+  "item.luckysarmory.light_diamond_boots": "Bottes en diamant légères",
+
+  "item.luckysarmory.light_netherite_helmet": "Casque en netherite léger",
+  "item.luckysarmory.light_netherite_chestplate": "Plastron en netherite léger",
+  "item.luckysarmory.light_netherite_leggings": "Jambières en netherite légères",
+  "item.luckysarmory.light_netherite_boots": "Bottes en netherite légères",
+
+  "item.luckysarmory.heavy_iron_helmet": "Casque en fer lourd",
+  "item.luckysarmory.heavy_iron_chestplate": "Plastron en fer lourd",
+  "item.luckysarmory.heavy_iron_leggings": "Jambières en fer lourdes",
+  "item.luckysarmory.heavy_iron_boots": "Bottes en fer lourdes",
+
+  "item.luckysarmory.heavy_golden_helmet": "Casque en or lourd",
+  "item.luckysarmory.heavy_golden_chestplate": "Plastron en or lourd",
+  "item.luckysarmory.heavy_golden_leggings": "Jambières en or lourdes",
+  "item.luckysarmory.heavy_golden_boots": "Bottes en or lourdes",
+
+  "item.luckysarmory.heavy_diamond_helmet": "Casque en diamant lourd",
+  "item.luckysarmory.heavy_diamond_chestplate": "Plastron en diamant lourd",
+  "item.luckysarmory.heavy_diamond_leggings": "Jambières en diamant lourdes",
+  "item.luckysarmory.heavy_diamond_boots": "Bottes en diamant lourdes",
+
+  "item.luckysarmory.heavy_netherite_helmet": "Casque en netherite lourd",
+  "item.luckysarmory.heavy_netherite_chestplate": "Plastron en netherite lourd",
+  "item.luckysarmory.heavy_netherite_leggings": "Jambières en netherite lourdes",
+  "item.luckysarmory.heavy_netherite_boots": "Bottes en netherite lourdes",
+
+  "key.luckysarmory.helmet_toggle": "Basculer le capuchon du casque",
+  "tooltip.luckysarmory.opened": "[Ouvert]",
+  "tooltip.luckysarmory.closed": "[Fermé]",
+  "tooltip.luckysarmory.dyeable": "Teignable",
+
+  "advancement.luckysarmory.heavy_iron_armor.title": "Blindé",
+  "advancement.luckysarmory.heavy_iron_armor.description": "Obtenez un ensemble complet d’armure en fer lourde",
+
+  "advancement.luckysarmory.heavy_netherite_armor.title": "Écrase-moi sous les débris",
+  "advancement.luckysarmory.heavy_netherite_armor.description": "La netherite ne te suffisait pas, hein ?"
+}

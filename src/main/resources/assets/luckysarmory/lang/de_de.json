@@ -1,0 +1,54 @@
+{
+    "itemGroup.luckysarmory": "Waffenkammer",
+
+    "item.luckysarmory.light_iron_helmet": "Leichter Eisenhelm",
+    "item.luckysarmory.light_iron_chestplate": "Leichter Eisenbrustpanzer",
+    "item.luckysarmory.light_iron_leggings": "Leichte Eisengamaschen",
+    "item.luckysarmory.light_iron_boots": "Leichte Eisenstiefel",
+
+    "item.luckysarmory.light_golden_helmet": "Leichter Goldhelm",
+    "item.luckysarmory.light_golden_chestplate": "Leichter Goldbrustpanzer",
+    "item.luckysarmory.light_golden_leggings": "Leichte Goldgamaschen",
+    "item.luckysarmory.light_golden_boots": "Leichte Goldstiefel",
+
+    "item.luckysarmory.light_diamond_helmet": "Leichter Diamanthelm",
+    "item.luckysarmory.light_diamond_chestplate": "Leichter Diamantbrustpanzer",
+    "item.luckysarmory.light_diamond_leggings": "Leichte Diamantgamaschen",
+    "item.luckysarmory.light_diamond_boots": "Leichte Diamantstiefel",
+
+    "item.luckysarmory.light_netherite_helmet": "Leichter Netheritehelm",
+    "item.luckysarmory.light_netherite_chestplate": "Leichter Netheritebrustpanzer",
+    "item.luckysarmory.light_netherite_leggings": "Leichte Netheritegamaschen",
+    "item.luckysarmory.light_netherite_boots": "Leichte Netheritestiefel",
+
+    "item.luckysarmory.heavy_iron_helmet": "Schwerer Eisenhelm",
+    "item.luckysarmory.heavy_iron_chestplate": "Schwerer Eisenbrustpanzer",
+    "item.luckysarmory.heavy_iron_leggings": "Schwere Eisengamaschen",
+    "item.luckysarmory.heavy_iron_boots": "Schwere Eisenstiefel",
+
+    "item.luckysarmory.heavy_golden_helmet": "Schwerer Goldhelm",
+    "item.luckysarmory.heavy_golden_chestplate": "Schwerer Goldbrustpanzer",
+    "item.luckysarmory.heavy_golden_leggings": "Schwere Goldgamaschen",
+    "item.luckysarmory.heavy_golden_boots": "Schwere Goldstiefel",
+
+    "item.luckysarmory.heavy_diamond_helmet": "Schwerer Diamanthelm",
+    "item.luckysarmory.heavy_diamond_chestplate": "Schwerer Diamantbrustpanzer",
+    "item.luckysarmory.heavy_diamond_leggings": "Schwere Diamantgamaschen",
+    "item.luckysarmory.heavy_diamond_boots": "Schwere Diamantstiefel",
+
+    "item.luckysarmory.heavy_netherite_helmet": "Schwerer Netheritehelm",
+    "item.luckysarmory.heavy_netherite_chestplate": "Schwerer Netheritebrustpanzer",
+    "item.luckysarmory.heavy_netherite_leggings": "Schwere Netheritegamaschen",
+    "item.luckysarmory.heavy_netherite_boots": "Schwere Netheritestiefel",
+
+    "key.luckysarmory.helmet_toggle": "Helmklappe umschalten",
+    "tooltip.luckysarmory.opened": "[Geöffnet]",
+    "tooltip.luckysarmory.closed": "[Geschlossen]",
+    "tooltip.luckysarmory.dyeable": "Färbbar",
+
+    "advancement.luckysarmory.heavy_iron_armor.title": "Gepanzert",
+    "advancement.luckysarmory.heavy_iron_armor.description": "Rüste dich mit einem vollständigen Set aus schwerer Eisenrüstung aus",
+
+    "advancement.luckysarmory.heavy_netherite_armor.title": "Zerschmettere mich mit Trümmern",
+    "advancement.luckysarmory.heavy_netherite_armor.description": "Netherit war dir nicht genug, oder?"
+}
