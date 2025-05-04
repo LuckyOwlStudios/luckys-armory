@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "@": {
+      "item": "minecraft:iron_helmet"
+    }
+  },
+  "pattern": [
+    "###",
+    "#@#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "luckysarmory:heavy_iron_helmet"
+  }
+}

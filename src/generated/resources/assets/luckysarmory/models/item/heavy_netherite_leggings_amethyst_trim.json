@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "luckysarmory:item/heavy_netherite_leggings",
+    "layer1": "luckysarmory:item/heavy_leggings_dye_overlay",
+    "layer2": "minecraft:trims/items/leggings_trim_amethyst"
+  }
+}

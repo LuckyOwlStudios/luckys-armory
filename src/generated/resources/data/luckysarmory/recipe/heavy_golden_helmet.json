@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "@": {
+      "item": "minecraft:golden_helmet"
+    }
+  },
+  "pattern": [
+    "###",
+    "#@#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "luckysarmory:heavy_golden_helmet"
+  }
+}

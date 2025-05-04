@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "luckysarmory:item/heavy_golden_helmet_opened",
+    "layer1": "luckysarmory:item/heavy_golden_helmet_dye_overlay"
+  }
+}

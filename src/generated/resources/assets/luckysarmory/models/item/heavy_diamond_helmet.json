@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "luckysarmory:item/heavy_diamond_helmet_opened",
+      "predicate": {
+        "luckysarmory:opened": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "luckysarmory:item/heavy_diamond_helmet",
+    "layer1": "luckysarmory:item/heavy_diamond_helmet_dye_overlay"
+  }
+}

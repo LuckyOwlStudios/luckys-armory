@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "@": {
+      "item": "minecraft:iron_leggings"
+    }
+  },
+  "pattern": [
+    "###",
+    "#@#",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "luckysarmory:heavy_iron_leggings"
+  }
+}

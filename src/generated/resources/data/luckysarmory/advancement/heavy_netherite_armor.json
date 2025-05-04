@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:nether/netherite_armor",
+  "criteria": {
+    "heavy_netherite_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "luckysarmory:heavy_netherite_helmet"
+          },
+          {
+            "items": "luckysarmory:heavy_netherite_chestplate"
+          },
+          {
+            "items": "luckysarmory:heavy_netherite_leggings"
+          },
+          {
+            "items": "luckysarmory:heavy_netherite_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": {
+      "translate": "advancement.luckysarmory.heavy_netherite_armor.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "luckysarmory:heavy_netherite_chestplate"
+    },
+    "title": {
+      "translate": "advancement.luckysarmory.heavy_netherite_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "heavy_netherite_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 200
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:story/obtain_armor",
+  "criteria": {
+    "heavy_iron_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "luckysarmory:heavy_iron_helmet"
+          },
+          {
+            "items": "luckysarmory:heavy_iron_chestplate"
+          },
+          {
+            "items": "luckysarmory:heavy_iron_leggings"
+          },
+          {
+            "items": "luckysarmory:heavy_iron_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": {
+      "translate": "advancement.luckysarmory.heavy_iron_armor.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "luckysarmory:heavy_iron_chestplate"
+    },
+    "title": {
+      "translate": "advancement.luckysarmory.heavy_iron_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "heavy_iron_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 10
+  },
+  "sends_telemetry_event": true
+}
