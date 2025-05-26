@@ -12,9 +12,8 @@ import java.util.concurrent.CompletableFuture;
 
 @ParametersAreNonnullByDefault
 @MethodsReturnNonnullByDefault
-public class ModAdvancements extends AdvancementProvider
-{
+public class ModAdvancements extends AdvancementProvider {
     public ModAdvancements(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, ExistingFileHelper existingFileHelper) {
-        super(output, lookupProvider, existingFileHelper, List.of(new ModAdvancmentProvider()));
+        super(output, lookupProvider, existingFileHelper, List.of(new ModAdvancementProvider()));
     }
 }

@@ -21,7 +21,6 @@ import java.awt.*;
 import java.util.Map;
 
 public class MyClientModEvents {
-
     private static final Map<Item, ResourceLocation> HELMET_OVERLAYS = Map.of(
             ModItems.HEAVY_IRON_HELMET.get(), ResourceLocation.fromNamespaceAndPath(LuckysArmory.MOD_ID, "textures/misc/iron_helmet_overlay.png"),
             ModItems.HEAVY_GOLDEN_HELMET.get(), ResourceLocation.fromNamespaceAndPath(LuckysArmory.MOD_ID, "textures/misc/golden_helmet_overlay.png"),
@@ -46,8 +45,7 @@ public class MyClientModEvents {
         int screenHeight = event.getGuiGraphics().guiHeight();
 
         // 🔸 Only draw the overlay mask if OPENED is FALSE
-        if (!Boolean.TRUE.equals(helmetStack.get(ModDataComponents.OPENED))) {
-
+        if (Boolean.FALSE.equals(helmetStack.get(ModDataComponents.OPENED))) {
             RenderSystem.disableDepthTest();
             RenderSystem.depthMask(false);
             RenderSystem.enableBlend();
