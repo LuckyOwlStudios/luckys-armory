@@ -31,8 +31,7 @@ import java.util.Map;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(LuckysArmory.MOD_ID)
-public class LuckysArmory
-{
+public class LuckysArmory {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "luckysarmory";
     // Directly reference a slf4j logger
@@ -45,8 +44,7 @@ public class LuckysArmory
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public LuckysArmory(IEventBus modEventBus, ModContainer modContainer)
-    {
+    public LuckysArmory(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -67,15 +65,12 @@ public class LuckysArmory
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
-        NeoForge.EVENT_BUS.addListener(ModKeybinds::onClientTick);
     }
 
-    private record NetworkMessage<T extends CustomPacketPayload>(StreamCodec<? extends FriendlyByteBuf, T> reader, IPayloadHandler<T> handler) {
-    }
+    private record NetworkMessage<T extends CustomPacketPayload>(StreamCodec<? extends FriendlyByteBuf, T> reader, IPayloadHandler<T> handler) { }
 
     public static <T extends CustomPacketPayload> void addNetworkMessage(CustomPacketPayload.Type<T> id, StreamCodec<? extends FriendlyByteBuf, T> reader, IPayloadHandler<T> handler) {
-        if (networkingRegistered)
-            throw new IllegalStateException("Cannot register new network messages after networking has been registered");
+        if (networkingRegistered) throw new IllegalStateException("Cannot register new network messages after networking has been registered");
         MESSAGES.put(id, new NetworkMessage<>(reader, handler));
     }
 
@@ -86,12 +81,8 @@ public class LuckysArmory
         networkingRegistered = true;
     }
 
-
-
-    private void commonSetup(final FMLCommonSetupEvent event)
-    {
+    private void commonSetup(final FMLCommonSetupEvent event) {
         LuckysArmory.addNetworkMessage(HelmetTogglePacket.TYPE, HelmetTogglePacket.STREAM_CODEC, HelmetTogglePacket::handleData);
-
         event.enqueueWork(() -> {
             // Register the cauldron interaction for dyeing armor items
             CauldronInteraction.WATER.map().put(ModItems.HEAVY_IRON_HELMET.get(), ModArmorMaterials.DYED_ARMOR_ITEM);
@@ -115,8 +106,5 @@ public class LuckysArmory
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event)
-    {
-
-    }
+    public void onServerStarting(ServerStartingEvent event) {}
 }

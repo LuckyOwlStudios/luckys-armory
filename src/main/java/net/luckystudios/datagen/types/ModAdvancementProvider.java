@@ -13,8 +13,7 @@ import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
 import java.util.function.Consumer;
 
-public class ModAdvancmentProvider implements AdvancementProvider.AdvancementGenerator
-{
+public class ModAdvancementProvider implements AdvancementProvider.AdvancementGenerator {
     @Override
     public void generate(HolderLookup.Provider registries, Consumer<AdvancementHolder> consumer, ExistingFileHelper existingFileHelper) {
         AdvancementHolder heavy_iron_armor = Advancement.Builder.advancement()
