@@ -5,7 +5,6 @@ import net.luckystudios.items.ModCreativeModeTabs;
 import net.luckystudios.items.ModItems;
 import net.luckystudios.items.armor.ModArmorMaterials;
 import net.luckystudios.keybinds.HelmetTogglePacket;
-import net.luckystudios.keybinds.ModKeybinds;
 import net.minecraft.core.cauldron.CauldronInteraction;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.network.codec.StreamCodec;
@@ -14,8 +13,6 @@ import net.minecraft.world.item.*;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
 import net.neoforged.neoforge.network.handling.IPayloadHandler;
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
-import org.slf4j.Logger;
-import com.mojang.logging.LogUtils;
 import net.minecraft.core.registries.Registries;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -35,8 +32,6 @@ public class LuckysArmory
 {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "luckysarmory";
-    // Directly reference a slf4j logger
-    public static final Logger LOGGER = LogUtils.getLogger();
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
 
@@ -45,8 +40,7 @@ public class LuckysArmory
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public LuckysArmory(IEventBus modEventBus, ModContainer modContainer)
-    {
+    public LuckysArmory(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -67,7 +61,6 @@ public class LuckysArmory
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
-        NeoForge.EVENT_BUS.addListener(ModKeybinds::onClientTick);
     }
 
     private record NetworkMessage<T extends CustomPacketPayload>(StreamCodec<? extends FriendlyByteBuf, T> reader, IPayloadHandler<T> handler) {

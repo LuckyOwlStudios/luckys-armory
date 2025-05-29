@@ -4,7 +4,7 @@ import com.mojang.blaze3d.platform.GlStateManager;
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.luckystudios.components.ModDataComponents;
 import net.luckystudios.items.ModItems;
-import net.luckystudios.keybinds.ModKeybinds;
+import net.luckystudios.keybinds.TestModKeyMappings;
 import net.minecraft.client.CameraType;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GameRenderer;
@@ -78,7 +78,7 @@ public class MyClientModEvents {
         }
 
         // 🔸 Draw icon and keybinding hint (always shown if it's a heavy helmet)
-        String message = "[" + ModKeybinds.getKeyName(ModKeybinds.TOGGLE_HELMET) + "]";
+        String message = "[" + TestModKeyMappings.getKeyName(TestModKeyMappings.TOGGLE_HELMET) + "]";
         int y = screenHeight - 15;
         int textX = (screenWidth / 2) + 120;
         int iconX = textX - 20;

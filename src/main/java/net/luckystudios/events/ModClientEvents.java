@@ -6,7 +6,6 @@ import net.luckystudios.components.ModDataComponents;
 import net.luckystudios.items.ModItems;
 import net.luckystudios.items.armor.HeavyArmorItem;
 import net.luckystudios.items.armor.models.*;
-import net.luckystudios.keybinds.ModKeybinds;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.model.Model;
@@ -32,7 +31,6 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
-import net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent;
 import net.neoforged.neoforge.client.extensions.common.IClientItemExtensions;
 import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
 import net.neoforged.neoforge.common.NeoForge;
@@ -267,10 +265,5 @@ public class ModClientEvents {
         event.registerLayerDefinition(HeavyChestplate.LAYER_LOCATION, HeavyChestplate::createBodyLayer);
         event.registerLayerDefinition(HeavyLeggings.LAYER_LOCATION, HeavyLeggings::createBodyLayer);
         event.registerLayerDefinition(HeavyBoots.LAYER_LOCATION, HeavyBoots::createBodyLayer);
-    }
-
-    @SubscribeEvent
-    public static void registerBindings(RegisterKeyMappingsEvent event) {
-        event.register(ModKeybinds.TOGGLE_HELMET.get());
     }
 }
